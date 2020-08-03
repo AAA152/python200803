@@ -1,10 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Aug  3 15:02:00 2020
-
-@author: AE401
-"""
-weight = int(input("請輸入體重(公斤):\n"))
-t = int(input("請輸入身高(公分):\n"))
-
-
+english=float(input('請輸入你的英文成績'))
+math=float(input('請輸入你的數學成績'))
+if math>=90 and english>=90:
+    print("有獎品")
+if math<60 and english<60:
+    print("要處罰")
+if (math<60 and english>=60) or (math>=60 and english<60):
+    print("再加油")
